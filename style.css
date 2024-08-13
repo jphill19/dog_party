@@ -1,0 +1,158 @@
+html {
+  overflow: hidden;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+header {
+  background-color: #75e2e6;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: #048eaa;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #048eaa;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/park.jpg");
+  background-size: cover;
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+strong {
+  font-weight: bold; /* Ensure bold styling for strong tags */
+}
+
+.hero img {
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.hero form {
+  display: inline-flex;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+form label {
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+form input {
+  width: 400px;
+  height: 40px;
+  font-size: 1.3em;
+  text-align: center;
+  box-sizing: border-box; 
+}
+
+form button {
+  width: 400px;
+  height: auto;
+  font-size: 1.3em; 
+  box-sizing: border-box;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #75e2e6;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+}
+
+.dog-info {
+  text-align: center;
+}
+
+.dog-info img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: thick solid #048eaa
+}
+
+.dog-info h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.dog-info p {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.dog-info button {
+  padding: 10px 20px;
+  background-color: #048eaa;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.media ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.media li {
+  margin: 0 10px;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
